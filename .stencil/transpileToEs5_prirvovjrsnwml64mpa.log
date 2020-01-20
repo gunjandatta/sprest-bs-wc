@@ -1,5 +1,0 @@
-GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js', './chunk-9a65e396.js'], function (exports, __chunk_1, __chunk_15) {
-    var h = window.GdSprestBs.h;
-    exports.BsJumbotron = __chunk_15.Jumbotron;
-    Object.defineProperty(exports, '__esModule', { value: true });
-});

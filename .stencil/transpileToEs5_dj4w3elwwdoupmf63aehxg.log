@@ -1,5 +1,0 @@
-GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js', './chunk-b0b7fcbc.js'], function (exports, __chunk_1, __chunk_26) {
-    var h = window.GdSprestBs.h;
-    exports.BsToolbar = __chunk_26.Toolbar;
-    Object.defineProperty(exports, '__esModule', { value: true });
-});

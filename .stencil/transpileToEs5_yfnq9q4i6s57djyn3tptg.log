@@ -1,5 +1,0 @@
-GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js', './chunk-09a062dc.js'], function (exports, __chunk_1, __chunk_24) {
-    var h = window.GdSprestBs.h;
-    exports.BsTable = __chunk_24.Table;
-    Object.defineProperty(exports, '__esModule', { value: true });
-});
