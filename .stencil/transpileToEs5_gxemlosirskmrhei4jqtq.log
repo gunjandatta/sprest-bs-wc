@@ -1,0 +1,5 @@
+GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js', './chunk-03dfd30a.js', './chunk-2f6eeb42.js'], function (exports, __chunk_1, __chunk_28, __chunk_30) {
+    var h = window.GdSprestBs.h;
+    exports.BsWebpartList = __chunk_30.WPList;
+    Object.defineProperty(exports, '__esModule', { value: true });
+});

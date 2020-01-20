@@ -1,0 +1,45 @@
+GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js'], function (exports, __chunk_1) {
+    var h = window.GdSprestBs.h;
+    var Tooltip = /** @class */ (function () {
+        function Tooltip() {
+        }
+        Tooltip.prototype.render = function () {
+            if (this.el.hasAttribute("data-init")) {
+                return;
+            }
+            var props = __chunk_1.getProps(this.el, {
+                className: this.className,
+                el: this.el,
+                type: this.type
+            });
+            GD.Components.Tooltip(props);
+            this.el.setAttribute("data-init", "true");
+        };
+        Object.defineProperty(Tooltip, "is", {
+            get: function () { return "bs-tooltip"; },
+            enumerable: true,
+            configurable: true
+        });
+        Object.defineProperty(Tooltip, "properties", {
+            get: function () {
+                return {
+                    "className": {
+                        "type": String,
+                        "attr": "class-name"
+                    },
+                    "el": {
+                        "elementRef": true
+                    },
+                    "type": {
+                        "type": Number,
+                        "attr": "type"
+                    }
+                };
+            },
+            enumerable: true,
+            configurable: true
+        });
+        return Tooltip;
+    }());
+    exports.Tooltip = Tooltip;
+});

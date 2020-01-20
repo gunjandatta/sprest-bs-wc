@@ -1,0 +1,40 @@
+GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js'], function (exports, __chunk_1) {
+    var h = window.GdSprestBs.h;
+    var Breadcrumb = /** @class */ (function () {
+        function Breadcrumb() {
+        }
+        Breadcrumb.prototype.render = function () {
+            if (this.el.hasAttribute("data-init")) {
+                return;
+            }
+            var props = __chunk_1.getProps(this.el, {
+                className: this.className,
+                el: this.el
+            });
+            GD.Components.Breadcrumb(props);
+            this.el.setAttribute("data-init", "true");
+        };
+        Object.defineProperty(Breadcrumb, "is", {
+            get: function () { return "bs-breadcrumb"; },
+            enumerable: true,
+            configurable: true
+        });
+        Object.defineProperty(Breadcrumb, "properties", {
+            get: function () {
+                return {
+                    "className": {
+                        "type": String,
+                        "attr": "class-name"
+                    },
+                    "el": {
+                        "elementRef": true
+                    }
+                };
+            },
+            enumerable: true,
+            configurable: true
+        });
+        return Breadcrumb;
+    }());
+    exports.Breadcrumb = Breadcrumb;
+});

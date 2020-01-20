@@ -1,0 +1,5 @@
+GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js', './chunk-82b8acb5.js'], function (exports, __chunk_1, __chunk_10) {
+    var h = window.GdSprestBs.h;
+    exports.BsCarousel = __chunk_10.Carousel;
+    Object.defineProperty(exports, '__esModule', { value: true });
+});

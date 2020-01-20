@@ -1,0 +1,5 @@
+GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js', './chunk-1cca7ac3.js'], function (exports, __chunk_1, __chunk_20) {
+    var h = window.GdSprestBs.h;
+    exports.BsPagination = __chunk_20.Pagination;
+    Object.defineProperty(exports, '__esModule', { value: true });
+});

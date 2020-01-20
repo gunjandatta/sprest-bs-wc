@@ -1,0 +1,62 @@
+GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js', './chunk-03dfd30a.js'], function (exports, __chunk_1, __chunk_28) {
+    var h = window.GdSprestBs.h;
+    var WPTabs = /** @class */ (function () {
+        function WPTabs() {
+        }
+        WPTabs.prototype.render = function () {
+            if (this.el.hasAttribute("data-init")) {
+                return;
+            }
+            var props = __chunk_1.getProps(this.el, {
+                cfgElementId: this.cfgElementId,
+                className: this.className,
+                elementId: this.elementId,
+                type: this.type,
+                wpClassName: this.wpClassName
+            });
+            this.el.removeAttribute("id");
+            __chunk_28.generateElement(this.el, props.elementId);
+            __chunk_28.generateElement(this.el, props.cfgElementId, true);
+            $REST.WebParts.WPTabs(props);
+            this.el.setAttribute("data-init", "true");
+        };
+        Object.defineProperty(WPTabs, "is", {
+            get: function () { return "bs-webpart-tabs"; },
+            enumerable: true,
+            configurable: true
+        });
+        Object.defineProperty(WPTabs, "properties", {
+            get: function () {
+                return {
+                    "cfgElementId": {
+                        "type": String,
+                        "attr": "cfg-element-id"
+                    },
+                    "className": {
+                        "type": String,
+                        "attr": "class-name"
+                    },
+                    "el": {
+                        "elementRef": true
+                    },
+                    "elementId": {
+                        "type": String,
+                        "attr": "element-id"
+                    },
+                    "type": {
+                        "type": Number,
+                        "attr": "type"
+                    },
+                    "wpClassName": {
+                        "type": String,
+                        "attr": "wp-class-name"
+                    }
+                };
+            },
+            enumerable: true,
+            configurable: true
+        });
+        return WPTabs;
+    }());
+    exports.WPTabs = WPTabs;
+});

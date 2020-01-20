@@ -1,0 +1,5 @@
+GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js', './chunk-03dfd30a.js', './chunk-cc2f8b63.js'], function (exports, __chunk_1, __chunk_28, __chunk_33) {
+    var h = window.GdSprestBs.h;
+    exports.BsWebpartTaxonomy = __chunk_33.WPTaxonomy;
+    Object.defineProperty(exports, '__esModule', { value: true });
+});

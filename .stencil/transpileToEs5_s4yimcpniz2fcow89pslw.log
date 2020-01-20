@@ -1,0 +1,45 @@
+GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js'], function (exports, __chunk_1) {
+    var h = window.GdSprestBs.h;
+    var Toolbar = /** @class */ (function () {
+        function Toolbar() {
+        }
+        Toolbar.prototype.render = function () {
+            if (this.el.hasAttribute("data-init")) {
+                return;
+            }
+            var props = __chunk_1.getProps(this.el, {
+                className: this.className,
+                el: this.el,
+                spacing: this.spacing
+            });
+            GD.Components.Toolbar(props);
+            this.el.setAttribute("data-init", "true");
+        };
+        Object.defineProperty(Toolbar, "is", {
+            get: function () { return "bs-toolbar"; },
+            enumerable: true,
+            configurable: true
+        });
+        Object.defineProperty(Toolbar, "properties", {
+            get: function () {
+                return {
+                    "className": {
+                        "type": String,
+                        "attr": "class-name"
+                    },
+                    "el": {
+                        "elementRef": true
+                    },
+                    "spacing": {
+                        "type": Number,
+                        "attr": "spacing"
+                    }
+                };
+            },
+            enumerable: true,
+            configurable: true
+        });
+        return Toolbar;
+    }());
+    exports.Toolbar = Toolbar;
+});

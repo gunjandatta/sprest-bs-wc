@@ -1,0 +1,18 @@
+GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports'], function (exports) {
+    var h = window.GdSprestBs.h;
+    var generateElement = function (el, elId, isCfg) {
+        if (isCfg === void 0) { isCfg = false; }
+        var elWebPart = null;
+        if (elId && el.parentElement) {
+            elWebPart = el.parentElement.querySelector("#" + elId);
+            if (elWebPart == null) {
+                elWebPart = document.createElement("div");
+                elWebPart.id = elId;
+                isCfg ? elWebPart.style.display = "none" : null;
+                el.parentElement.appendChild(elWebPart);
+            }
+        }
+        return elWebPart;
+    };
+    exports.generateElement = generateElement;
+});

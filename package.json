@@ -1,0 +1,28 @@
+{
+  "name": "sprest-bs-wc",
+  "version": "0.9.0",
+  "description": "Extends the Bootstrap library to be used as web components.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "stencil build --prerender",
+    "start": "stencil build --dev --watch --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunjandatta/sprest-bs-wc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunjandatta/sprest-bs-wc/issues"
+  },
+  "homepage": "https://github.com/gunjandatta/sprest-bs-wc#readme",
+  "dependencies": {
+    "gd-sprest-bs": "^2.8.0"
+  },
+  "devDependencies": {
+    "@stencil/core": "^0.18.0",
+    "stencil": "^0.0.5"
+  }
+}

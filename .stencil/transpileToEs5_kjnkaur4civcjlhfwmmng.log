@@ -1,0 +1,5 @@
+GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js', './chunk-b3b55bb1.js'], function (exports, __chunk_1, __chunk_8) {
+    var h = window.GdSprestBs.h;
+    exports.BsCard = __chunk_8.Card;
+    Object.defineProperty(exports, '__esModule', { value: true });
+});

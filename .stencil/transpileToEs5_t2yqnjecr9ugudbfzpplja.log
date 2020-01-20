@@ -1,0 +1,5 @@
+GdSprestBs.loadBundle('/**:bundle-id:**/', ['exports', './chunk-1c26bad2.js', './chunk-08c64553.js'], function (exports, __chunk_1, __chunk_2) {
+    var h = window.GdSprestBs.h;
+    exports.BsAccordion = __chunk_2.Accordion;
+    Object.defineProperty(exports, '__esModule', { value: true });
+});
