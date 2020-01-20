@@ -1,5 +1,5 @@
 {
-  "name": "sprest-bs-wc",
+  "name": "gd-sprest-bs-wc",
   "version": "0.9.0",
   "description": "Extends the Bootstrap library to be used as web components.",
   "main": "dist/index.js",
